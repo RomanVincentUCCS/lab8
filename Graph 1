@@ -33,7 +33,7 @@
 //The following statement loads the data from the CSV file, and then runs the function after the CSV is loaded. CityData is returned as an array containing the CSV data
 
     // Paste here the github raw url of "CityData_WUP2018_top20.csv" data  
-      d3.csv("https://raw.githubusercontent.com/RomanVincentUCCS/lab8/refs/heads/main/CityData_WUP2018_top20.csv", function(CityData) {
+      d3.csv("https://raw.githubusercontent.com/fuzhen-yin/2025_carto_test/refs/heads/main/CityData_WUP2018_top20.csv", function(CityData) {
             
             console.log(CityData[1]);
           
@@ -45,6 +45,7 @@
             myChart.defaultColors = [
                 new dimple.color("#54aae3")
             ];
+
 
             var x = myChart.addCategoryAxis("x", "CityName");  // Define the x axis. In this example it is a category axis
 
@@ -63,5 +64,5 @@
 
 </script>
 
-</body
+</body>
 </html>
